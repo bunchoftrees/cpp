@@ -1,4 +1,4 @@
-/*
+
 // Keywords example
 #include <iostream>
 #include <string>
@@ -27,6 +27,3 @@ int main()
     }
 
 }
-
-
-*/
