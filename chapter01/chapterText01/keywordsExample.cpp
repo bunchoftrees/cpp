@@ -10,20 +10,26 @@ int main()
     double myDouble = 3.14;
     char myChar = 'C';
     bool myBool = true;
+    std::string myString = "Forrest\n";
+
+    std::cout << myInt << std::endl
+              << myDouble << std::endl
+              << myChar << std::endl
+              << myString;
 
     // Flow keywords
     if (myBool)
     {
-        std::cout << "true";
+        std::cout << "true\n";
     }
     else
     {
-        std::cout << "false";
+        std::cout << "false\n";
     }
 
     struct myStruct
     {
         int myInt = 2;
-    }
+    };
 
 }
