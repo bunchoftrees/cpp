@@ -7,7 +7,6 @@
 
 int main()
 {
-    
     std::cout << HELLO_WORLD;
     std::cout << MULTIPLY(3, 4) << "\n";
     std::cout << "Welcome, Forrest!\n";
