@@ -9,3 +9,10 @@ This example shows basic function declaration and using a `while (condition)` lo
 5. If a Max can be found, using `std::cout` print the Max number and set your boolean value to false.
 
 Alternate methods include using a Try/Catch statement. You can read more about these [here](https://en.cppreference.com/w/cpp/language/try_catch), though these will be covered later.
+
+***
+NOTE:
+This application will run with non integers but will result in an endless loop. 
+
+I'll revisit when I learn how to enforce types.
+***
