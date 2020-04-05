@@ -1,3 +1,6 @@
 .vscode
 *.dSYM
-.bin
+
+# complied code is built in .bin,
+# and we don't want to keep these in a repo.
+.bin 
