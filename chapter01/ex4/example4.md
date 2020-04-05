@@ -7,3 +7,5 @@ This example shows basic function declaration and using a `while (condition)` lo
 3. inside of a while loop, prompt for inputs for your variables. 
 4. If the two variables are equal, explain the problem and loop back to the beginning of the code block to reexecute.
 5. If a Max can be found, using `std::cout` print the Max number and set your boolean value to false.
+
+Alternate methods include using a Try/Catch statement. You can read more about these [here](https://en.cppreference.com/w/cpp/language/try_catch), though these will be covered later.
