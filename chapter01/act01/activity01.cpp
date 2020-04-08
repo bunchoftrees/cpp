@@ -39,6 +39,7 @@ int main()
     // Setting up inputs
     std::string firstName;
     std::string lastName;
+    std::string name = "";
     int age = 0;
 
     // Ask for user input
@@ -50,7 +51,8 @@ int main()
     getline(std::cin, lastName);
     std::cout << "How old are you?"
               << std::endl;
-    std::cin >> age;
+    getline(std::cin, name);
+    age = std::stoi(name);
 
     // variable that stores the returned value of GetGen(age)
     std::string group = GetGen(age);
