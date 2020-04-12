@@ -8,4 +8,4 @@
 
 cmake-build-debug
 
-CMakeLists.txt
+cppWorkshop/CMakeLists.txt
