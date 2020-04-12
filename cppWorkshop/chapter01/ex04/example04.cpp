@@ -22,7 +22,7 @@ int main()
     int value2 = 0;
 
     // create a while loop to disallow incorrect input
-    while (runProgram == true)
+    while (runProgram)
     {
         std::cout << "Please input number 1: ";
         std::cin >> value1;

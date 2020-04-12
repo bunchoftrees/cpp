@@ -1,6 +1,11 @@
 .vscode
 *.dSYM
+.idea
 
 # complied code is built in .bin,
 # and we don't want to keep these in a repo.
 .bin 
+
+cmake-build-debug
+
+CMakeLists.txt

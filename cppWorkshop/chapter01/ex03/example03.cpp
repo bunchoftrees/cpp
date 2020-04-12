@@ -5,7 +5,7 @@
 
 int main()
 {
-    time_t t = time(NULL);
+    time_t t = time(nullptr);
     tm *timePtr = localtime(&t);
     // tm_year references the number of years elapsed since 1900
     int currentYear = timePtr->tm_year + 1900;

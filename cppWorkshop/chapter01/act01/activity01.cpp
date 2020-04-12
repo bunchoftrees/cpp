@@ -9,7 +9,7 @@
 
 // Define group names
 #define GROUP_A_NAME "Gen Z"
-#define GROUP_B_NAME "Millenial"
+#define GROUP_B_NAME "Millennial"
 #define GROUP_C_NAME "Gen Xer"
 #define GROUP_D_NAME "Boomer"
 
@@ -39,7 +39,7 @@ int main()
     // Setting up inputs
     std::string firstName;
     std::string lastName;
-    std::string name = "";
+    std::string name;
     int age = 0;
 
     // Ask for user input
